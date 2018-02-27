@@ -17,49 +17,49 @@
   </teiHeader>
   <text>
       <body>
-         <div type="editorial"><p>How dare you <desc>black</desc>students of the
+         <div type="editorial"><p>How dare you <desc type="race">black</desc>students of the
 <orgName>University</orgName> complain?</p>
 <p>I think it's perfectly asinine of<space/>you
 people to think you can get something
 for nothing. Furthermore, I think
 you've been given enough already.</p>
-<p>After all, there isn<add>'</add>t a <desc>white</desc> student
+<p>After all, there isn<add>'</add>t a <desc type="race">white</desc> student
 union on campus <add>--</add> neither would it
 have been permitted.</p>
 <p>Look at all the money <orgName><abbr>SGA</abbr></orgName> appro<lb break="yes"/>
-priated you just because you<add>'</add>re <affiliation>black</affiliation>.
-Let<add>'</add>s face it. You niggers get all the
+priated you just because you<add>'</add>re <desc type="race">black</desc>.
+  Let<add>'</add>s face it. You <desc type="black people">niggers</desc> get all the
 breaks. When there's an opening in
 the dining halls or the janitorial
-staff, who gets the job? A nigger.</p>
-<p>Look at the riots. You niggers
+  staff, who gets the job? A <desc type="black people">nigger</desc>.</p>
+           <p>Look at the riots. You <desc type="black people">niggers</desc>
 damned near robbed my brother-in<lb break="yes"/>
 law blind. Now he can<add>'</add>t even get
 the insurance company to pay off.
 Violence isn<add>'</add>t the answer especially
-when it<add>'</add> <affiliation>communist</affiliation> inspired.</p>
-<p>What if we <affiliation>whites</affiliation> had armed our<lb break="yes"/>
-selves and looted <desc>black</desc> businesses?
-You claim that the <affiliation>black student
-population</affiliation> isn<add>'</add>t representative of
-<affiliation>black population</affiliation> on a whole.</p>
-<p>Can we help it if niggers don<add>'</add>t want
+             when it<add>'</add> <affiliation><desc type="black">communist</desc></affiliation> inspired.</p>
+<p>What if we <desc type="race">whites</desc> had armed our<lb break="yes"/>
+selves and looted <desc type="race">black</desc> businesses?
+  You claim that the <affiliation><desc type="race">black</desc> student
+  population</affiliation> isn<add>'</add>t representative of
+  <affiliation><desc type="race">black</desc> population</affiliation> on a whole.</p>
+<p>Can we help it if <desc type="black people">niggers<desc/> don<add>'</add>t want
 to come here? Besides, nobody had
 to tell me to come here.</p>
 <p>Furthermore, you have to accept
-the fact that the <affiliation>black students</affiliation> aren<add>'</add>t
-as intelligent as <affiliation>whites</affiliation> and therefore
+the fact that the <desc type="race">black students</desc> aren<add>'</add>t
+as intelligent as <desc type="race">whites</desc> and therefore
 won't do as well in college.</p>
 <p>You think you have it bad. Look at
-the Jews, the Irish, the Italians. They
+  the <desc type="ethnic groups">Jews, the Irish, the Italians</desc>. They
 made it, didn<add>'</add>t they? Why can<add>'</add>t you
 people stop making bad scenes?</p>
 <p>Don<add>'</add>t your leaders have any con<lb break="yes"/>
-trol over you savages? The display
+  trol over you <desc type="black people">savages</desc>? The display
 of violence in the <orgName><abbr>SGA</abbr></orgName> budget hearing
 was simply disgraceful. You say you
 don<add>'</add>t want tokenism but you were
-willing to accept only <num>two</num> <affiliation>black mem<lb break="yes"/>
+  willing to accept only <num>two</num> <affiliation><desc type="race">black</desc> mem<lb break="yes"/>
 bers on the cheer leading squad</affiliation>.</p>
 <p>Why not the whole squad? You also
 showed extreme lack of respect for
@@ -81,7 +81,7 @@ ahead.</p>
 <p><placeName>724 Reactionary Drive</placeName></p>
 <p><placeName>Bigot, Maryland</placeName></p>
 <p>This is a letter which is full of the
-racism that confronts <affiliation>black students</affiliation>
+racism that confronts <desc type="race">black students</desc>
 <corr>everyday</corr>.</p>
 <!--Print smudge distorts sic "b" character in "everyday"-->
 <p>The person who wrote this letter
@@ -91,7 +91,7 @@ in any age group, in any establish<lb break="yes"/>
 ment, in any city or even crawling
 out <corr>of</corr> the woodwork.</p>
 <!--Print smudge distorts "f" character in "of"-->
-<p><corr>Whitey</corr>, it is your duty to seek him
+  <p><corr><desc type="White people">Whitey</desc></corr>, it is your duty to seek him
 out and destroy him, before we do!</p>
 </div>
       </body>
