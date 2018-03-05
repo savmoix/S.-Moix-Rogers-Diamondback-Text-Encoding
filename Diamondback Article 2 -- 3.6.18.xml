@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The diamondback (College Park, Md.), 1969-10-16</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="SMR">
+                <forename>Savannah</forename>
+                <surname>Moix-Rogers</surname>
+              </persName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName ref="#SMR">
+                <forename>Savannah</forename>
+                <surname>Moix-Rogers</surname>
+              </persName>
+              </respStmt>
+              <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">
+                  <forename>Raff</forename>
+                  <surname>Viglianti</surname>
+                  </persName>
+              </respStmt>
+              <respStmt>
+              <resp>TEI header template provided by</resp>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+              </respStmt>
+              <respStmt>
+                <resp>Student newspapers archived and provided by</resp>
+                <orgName xml:id="UA">University Archives
+                  <placeName>University of Maryland
+                    <settlement>College Park</settlement>
+                    <region>Maryland</region>
+                  </placeName>
+                  </orgName>
+              </respStmt>
+         </titleStmt>
+         <extent>
+           <measure unit="pages" quantity="1">1 partial page of original source material</measure>
+         </extent>
+         <publicationStmt>
+           <publisher><orgName>University of Maryland</orgName></publisher>
+            <pubPlace>
+              <settlement>College Park</settlement>
+            <region>Maryland</region>
+          </pubPlace>
+            <date>No publication date available. Last update to overall database listed as <date when="2018-02-15">Feb 15, 2018</date></date>
+            <availability status="free">
+              <p>In the public domain</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+           <p><title type="main">diamondback</title></p>
+         <p><title type="sub">page of opinion</title></p>
+        <p><idno type="publisher">University of Maryland - College Park</idno></p>
+     </seriesStmt>
+         <sourceDesc>
+           <listBibl>
+             <biblStruct>
+               <analytic>
+                 <title>Understand whitey</title>
+                 <author>
+                   <persName xml:id="MM">Mike McNair</persName>
+                 </author>
+               </analytic>
+               <monogr>
+                 <title>the diamondback</title>
+                 <imprint>
+                   <publisher><orgName>University of Maryland</orgName></publisher>
+                   <pubPlace>
+                     <settlement>College Park</settlement>
+                     <region>Maryland</region>
+                   </pubPlace>
+                   <date when="1969-10-16">Thursday, October 16, 1969</date>
+                 </imprint>
+                 <biblScope unit="volume">62</biblScope>
+                 <biblScope unit="number">25</biblScope>
+                 <biblScope unit="page">9</biblScope>
+                 </monogr>
+                 </biblStruct>
+                 <bibl>
+                   <interpGrp>
+                     <desc>Ideational analysis of race and identity.</desc>
+                     <interp xml:id="AFAM">African American referent</interp>
+                     <interp xml:id="CAUC">Caucasian referent</interp>
+                     <interp xml:id="ASLUR">derogatory racial slur or identifier for African Americans</interp>
+                     <interp xml:id="CSLUR">derogatory racial slur or identifier for Caucasians</interp>
+                     <interp xml:id="OTHER">racial and ethnical groups other than African Americans and Caucasians</interp>
+                     <interp xml:id="ACT">actions related to identifying racial differences</interp>
+                   </interpGrp>
+                 </bibl>
+                 </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <p>Typographical errors have been noted and replaced with suggested corrections.</p>
+          <p>Structural formatting has been preserved. That is, page jumps and paragraphs have been retained, along with some line breaks.</p>
+          <p>Offensive language and "slurs" have been preserved in order to textually and honestly grapple with race and identity.</p>
+          <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been preserved and added in as it appears in the original publication.</p>
+             </hyphenation>
+        </editorialDecl>
+        <projectDesc>
+          <p>This project aims to view and read digitalized text with a Black Digital Humanities lense and grounding -- treating archival pieces with care and inclusivity.</p>
+        </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="en-US">United States English</language>
+        </langUsage>
+        <particDesc>
+          <listOrg>
+            <org>
+              <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+              <idno type="LCAF">n79054042</idno>
+              <placeName>
+                <settlement>College Park</settlement>
+                <region>Maryland (<abbr>MD</abbr>)</region>
+                <country>United States of America</country>
+              </placeName>
+            </org>
+          </listOrg>
+          <listPerson>
+            <person>
+              <persName xml:id="CRL">civil rights leaders</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head rend="center">
+        <title type="main">Understand whitey</title>
+      </head>
+    </div>
+    <div rend="center"></div>
+    <byline><persName ref="#MM"><hi rend="italics">Mike McNair</hi></persName>
+  </byline>
+</body>
+</text>
+<text>
+  <body>
+<p>
+<time>In prior years</time>, <persName ref="#CRL">civil rights leaders</persName>
+have <interp ana="#ACT">pointed an accusing</interp> <choice><orig>Anger</orig><reg>finger</reg></choice> at <affiliation><interp ana="#CAUC">white
+America</interp></affiliation>, <interp ana="#ACT">screaming racism</interp> <choice><orig>of</orig><reg>at</reg></choice> the top
+of <interp ana="#AFAM">their</interp> lungs.</p>
+<p>The <interp ana="#ACT">reply</interp> was<choice><orig>;</orig><reg>:</reg></choice> <said><affiliation><interp ana="#CAUC">“We aren't racist</interp></affiliation><choice><orig>l</orig><reg>!</reg></choice>
+It’s <choice><orig>J</orig><reg>j</reg></choice>ust that <interp ana="#AFAM">those people</interp> are so <affiliation><interp ana="#AFAM">un-­
+civilized, so uncultured, so stupid, so
+filthy</interp></affiliation>. <interp ana="#CAUC">Let’s</interp> <interp ana="#ACT">face it</interp>—<interp ana="#CAUC">we’re just better
+than</interp> <interp ana="#AFAM">they</interp> are. Maybe <time>in a <num>few</num> years</time>,
+<time>when <interp ana="#AFAM">they’re</interp> <interp ana="#ACT">raised up</interp> to <interp ana="#CAUC">our</interp> <affiliation>stan­<add>-</add>
+dards</affiliation></time>, <interp ana="#CAUC">we’ll</interp> <interp ana="#ACT">allow</interp> <interp ana="#AFAM">them</interp> <interp ana="#CAUC">to exist</interp> with
+<interp ana="#CAUC">us</interp>.”</said></p>
+<p><time>Now in this great age</time>, <persName ref="#CRL">the civil rights
+leaders</persName> are <time>still</time> <interp ana="#ACT">pointing an accusing
+finger</interp> at <affiliation><interp ana="#CAUC">white America</interp></affiliation><choice><orig>,</orig><reg>.</reg></choice></p>
+<p>Yet the <interp ana="#ACT">reply</interp> is <time>now</time> a little different:
+<said>“Okay, <affiliation><interp ana="#CAUC">we are racist</interp></affiliation>. But look at
+<num>some</num> of <affiliation><interp ana="#AFAM">your organizations</interp></affiliation>. Aren’t <interp ana="#AFAM">they</interp>
+<affiliation><interp ana="#AFAM">all one race</interp></affiliation>? Isn’t this <affiliation><interp ana="#AFAM">new separatist
+movement</interp></affiliation> really a <interp ana="#AFAM">form of racism</interp>?”</said></p>
+<p>Thus it would appear as though <affiliation><interp ana="#CAUC">the
+country</interp></affiliation> is <time>now</time> <interp ana="#ACT">preoccupied with name-­
+calling</interp>. <said><interp ana="#OTHER">“Commies, fascists, nazis</interp>,and
+<time>now</time> <affiliation><interp ana="#AFAM">racists</interp></affiliation>.<add>"</add></said> The atmosphere of <said>“Don’t
+call me <interp ana="#ASLUR">nigger</interp>, <choice><orig>whltey</orig><reg><interp ana="#CAUC">whitey</interp></reg></choice>—Don’t call me
+<interp ana="#CSLUR">whitey</interp>, <interp ana="#AFAM">nigger</interp>,”</said> prevails over every
+<interp ana="#ACT">interracial confrontation</interp>.</p>
+<p><time>Once again</time>, each side proved that
+the lack of <interp ana="#ACT">good effective communica­-
+tion</interp> had caused wholesale ignorance and
+<choice><orig>m isunder standing</orig><reg>misunderstanding</reg></choice>.</p>
+<p>Few <interp ana="#CAUC">whites</interp> recognized that <interp ana="#AFAM">the black
+men</interp> who refer to <interp ana="#CSLUR">Whitey</interp> are not neces­<add>-</add>
+sarily referring to <interp ana="#CAUC">the white race</interp>. <interp ana="#CAUC">Whites</interp>
+<interp ana="#ACT">don’t understand</interp> that <term><interp ana="#CAUC">white</interp></term>, like <term><interp ana="AFAM">black</interp></term>, is
+a <affiliation><term>term for a state of mind</term></affiliation>.</p>
+<p>A good definition of <term>white</term> as <affiliation>a state
+of mind</affiliation> would be—one whose standards
+coincide with the <affiliation><interp ana="#CAUC">higher social classes</interp></affiliation>
+as a result of being <choice><orig>I</orig><reg>i</reg></choice>n a <affiliation><interp ana="#CAUC">higher social
+bracket</interp></affiliation>.</p>
+<p>For example:</p>
+<p><affiliation><interp ana="#CAUC">Strong family structures, strong ed­-
+ucational background, numerous vo­-
+cational opportunities and multitudes of
+legal advantages</interp></affiliation>.</p>
+<p>In short, a <term><affiliation>synonym</affiliation></term> for <term>white</term> is <term>rich</term>­<add>--</add>
+defining <term>rich</term> to mean <affiliation><interp ana="#AFAM">not poor</interp></affiliation>.</p>
+<p>A <term><affiliation>synonym</affiliation></term> for <term>black</term> is <term><affiliation><interp ana="#AFAM">poor</interp></affiliation></term>.</p>
+<p>In the <affiliation><interp ana="#CAUC">white culture</interp></affiliation>, <affiliation><interp ana="#CAUC">entertainment
+and amusement</interp></affiliation> varied with the taste of
+<affiliation><interp ana="#CAUC">the Individual</interp></affiliation>. <affiliation><interp ana="#CAUC">Restaurants, night clubs,
+movies, trips abroad, plays, little
+leagues, playgrounds, formal evening
+parties, camp-outs and other luxuries</interp></affiliation>
+were <affiliation><interp ana="#CAUC">common place</interp></affiliation>.</p>
+<p>The <affiliation><interp ana="#AFAM">black culture</interp></affiliation>, on the contrary,
+<interp ana="#ACT">boasted</interp> of the <affiliation><interp ana="#AFAM">endurance</interp></affiliation> of <interp ana="#AFAM">the poor</interp>.</p>
+<p><interp ana="#AFAM">Children</interp> <interp ana="#ACT">seldom saw a blade of grass</interp>.
+<interp ana="#ACT">Improvisation</interp> became one of <affiliation><interp ana="#AFAM">their
+greatest attributes</interp></affiliation>. <interp ana="#AFAM">They</interp> even had to
+<interp ana="#ACT">improvise on food</interp>. But <time>too often</time>, there
+was <affiliation><interp ana="#AFAM">nothing to improvise with</interp></affiliation>.</p>
+<p>Since <interp ana="#AFAM">black</interp> had been an <affiliation><interp ana="#AFAM">unstudied,
+disrespected culture</interp></affiliation> in <affiliation><interp ana="#CAUC">white America</interp></affiliation>,
+<num>few</num> <affiliation><interp ana="#CAUC">rich Caucasians</interp></affiliation> saw t<choice><orig>n</orig><reg>h</reg></choice>e need to
+<interp ana="#ACT">think black</interp>. <time>Now that the need has
+arisen</time>, <affiliation><interp ana="#CAUC">rich Caucasians</interp></affiliation> <interp ana="#ACT">find it dif­-
+ficult to think poor</interp>.</p>
+<p>Obviously, <num>many</num> <interp ana="#AFAM">poor</interp> lacked the ability
+<interp ana="#ACT">to think rich or white</interp>. <affiliation><persName ref="#MM">These state­-
+ments</persName></affiliation> should have caused <num>enough</num> con­<add>-</add>
+fusion to <interp ana="#ACT">warrant several questions</interp>.</p>
+<p><affiliation><persName ref="#MM">My</persName> contention</affiliation> is that <interp ana="#ACT">good, sound
+knowledge</interp> of <affiliation><interp ana="#AFAM">the black man’s culture</interp></affiliation>
+should <interp ana="#ACT">help clear away some of the fog</interp>.</p>
+<p><persName ref="#MM">My</persName> <time>next</time> <num>few</num> articles will deal with
+<affiliation><interp ana="#AFAM">the basic aspects of black culture</interp></affiliation>
+which have <interp ana="#AFAM">flourished in America</interp> for
+<num>several hundred</num> <time>years</time>.</p>
+</body>
+</text>
+</TEI>
